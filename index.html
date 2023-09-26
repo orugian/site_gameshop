@@ -4,58 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loja de Games</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main1.0.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="cabecalho">
     <header>
         <div class="container">
-            <h1>Game Shop</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#" title="Sobre a loja">Sobre a loja</a>
-                    </li>
-                    <li>
-                        <a href="#" title="Contato">Conato</a>
-                    </li>
-                </ul>
-            </nav>
+        <h1>Games Shop</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#sobre-loja" title="Sobre a loja">Sobre a loja</a>
+                </li>
+                <li>
+                    <a href="#contact" title="Contato">Contato</a>     
+                </li>
+            </ul>
+        </nav>
         </div>
     </header>
-    </div>
-    
-    <section  class="sobre-loja">
-        <div id="imagem_loja">
-            <img src="https://site-gamesshop.vercel.app/images/loja.jpg">
+        
+    <section id="sobre-loja" >
+        <div class="container">
+        <img class="store-front" src="https://site-gamesshop.vercel.app/images/loja.jpg" alt="Fachada loja Games Shop">
+        <div>
+            <h2>Sobre a Loja</h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates consequuntur nostrum veniam perferendis illo accusamus perspiciatis porro sunt tenetur vero fugit, laudantium sapiente atque excepturi neque eveniet. Sint, quas praesentium.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quia deserunt libero ullam laudantium vitae sunt harum sapiente assumenda consequuntur eveniet recusandae id molestias dicta inventore asperiores, error fugit. Modi?
+            </p>
+            <ul class="brand-list">
+                <li><img src="https://site-gamesshop.vercel.app/images/nintendo.png" alt="Nintendo"></li>
+                <li><img src="https://site-gamesshop.vercel.app/images/xbox.png" alt="Xbox"></li>
+                <li><img src="https://site-gamesshop.vercel.app/images/playstation.png" alt="Playstation"></li>
+            </ul>
         </div>
-        <div id="loja">
-            <h3>Sobre a loja</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque sed consequatur labore magnam? Totam, facere dolores atque eveniet, aspernatur voluptates nobis beatae cupiditate laboriosam adipisci nihil eaque velit tempore corporis.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi vero illo facere sint dignissimos saepe quas. Sapiente odio nemo sed sit ex officia, temporibus dolorum provident culpa fuga, minus voluptas.
-            </p>
-            <li><img src="https://site-gamesshop.vercel.app/images/nintendo.png"></li>
-            <li><img src="https://site-gamesshop.vercel.app/images/xbox.png"></li>
-            <li><img src="https://site-gamesshop.vercel.app/images/playstation.png"></li>
         </div>
     </section>
 
-    <section class="container">
-        <div id="rodape">
+    <section id="contact">
+        <div class="container">
             <h2>Contato</h2>
-            <section>
-            <h3>Fale conosco</h3>
-            </section>
-            <section>
-            <h3>Nos acompanhe</h3>
-            </section>
-            <section>
-            <h3>Venha até nós</h3>
-            </section>
+            <div class="contact-metods">
+                <div>
+                    <h3>Fale Conosco</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required/>
+                        <input type="email" placeholder="Seu email" required/>
+                        <input type="tel" placeholder="Seu telefone (opticional)"/>
+                        <textarea placeholder="Sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Fale Conosco</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" tilte="Siganos no Instragram">
+                                <img src="https://t.ctcdn.com.br/Wl2ilBJi0ZFEzeNgF8dC57PS_g8=/400x400/smart/i489927.jpeg" alt="Logo Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" tilte="Siganos no Facebook">
+                                <img src="https://img.freepik.com/vetores-premium/logo-de-midia-social-azul_197792-1759.jpg?w=740" alt="Logo Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" tilte="Visite nosso canal no Youtube">
+                                <img src="https://img.utdstc.com/icon/0f9/912/0f99129b8f31cd62c2b4d4402dd49cb8ad36dd15defb187776d723c2459fb4f7:100" alt="Logo Youtube">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Venha até nós</h3>
+                    <p>
+                        Rua Vilela 665 , sala 1703 edificio crona
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
+
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Game Shop - Todos os direitos reservados - 2023
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
